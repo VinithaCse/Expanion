@@ -1,0 +1,54 @@
+Session2 Summary 
+
+1. Design Documentation way in SW Engineering 
+   
+  Software documentation is written text or illustration that accompanies computer software. 
+  It either explains how it operates or how to use it, and may mean different things to people in different roles.
+  Documentation is an important part of software engineering. 
+  Types of documentation include:
+    Requirements - Statements that identify attributes, capabilities, characteristics, or qualities of a system. This is the foundation for what will be or has been implemented.
+    Architecture/Design - Overview of software. Includes relations to an environment and construction principles to be used in design of software components.
+    Technical - Documentation of code, algorithms, interfaces, and APIs.
+    End user - Manuals for the end-user, system administrators and support staff.
+    Marketing - How to market the product and analysis of the market demand.  
+  
+2. UML 
+   The Unified Modeling Language (UML) is a general-purpose, developmental, modeling language in the field of software engineering, that is intended to provide a standard way to visualize the design of a system
+
+3. Sequence Diagram
+   A Sequence diagram is an interaction diagram that shows how processes operate with one another and in what order. 
+   It is a construct of a Message Sequence Chart.
+   A sequence diagram shows object interactions arranged in time sequence. 
+   It depicts the objects and classes involved in the scenario and the sequence of messages exchanged between the objects needed to carry out the functionality of the scenario. 
+   Sequence diagrams are typically associated with use case realizations in the Logical View of the system under development. 
+   Sequence diagrams are sometimes called event diagrams or event scenarios
+
+4. Flow Chart
+   A flowchart is a type of diagram that represents an algorithm, workflow or process, showing the steps as boxes of various kinds, and their order by connecting them with arrows. 
+   This diagrammatic representation illustrates a solution model to a given problem. 
+   Flowcharts are used in analyzing, designing, documenting or managing a process or program in various fields.
+5. Programming Paradigm
+   A programming paradigm is a style or “way” of programming. 
+   Some languages make it easy to write in some paradigms but not others. 
+   Never use the phrase “programming language paradigm.”
+6. Compiled language Vs. Interpreted language
+   Compiled 
+    In a compiled implementation of a language, a compiler will translate the program directly into code that is specific to the target machine, which is also known as machine code – basically code that is specific to a given processor and operating system. 
+    Then the computer will run the machine code on its own.
+   Interpreted
+    In interpretation, the original source code is also typically converted into some intermediate code which is then processed by an interpreter that converts the intermediate code into machine specific code.
+7. How Java is Platform Independent language
+   With Java, you can compile source code on Windows and the compiled code (bytecode to be precise) can be executed (interpreted) on any platform running a JVM. 
+   So yes you need a JVM but the JVM can run any compiled code, the compiled code is platform independent.
+8. Pure OOP Language 
+   Java is a OOP language and it is not a pure Object Based Programming Language. Many languages are Object Oriented.
+9. JDK vs JRE vs JVM
+   JRE is an acronym for Java Runtime Environment.
+   It is used to provide runtime environment.
+   It is the implementation of JVM.
+   It physically exists.It contains set of libraries + other files that JVM uses at runtime. 
+   JDK is an acronym for Java Development Kit.
+   It physically exists.It contains JRE + development tools
+10. PATH and CLASSPATH
+    PATH and CLASSPATH are two most important environment variable of Java environment which is used to find JDK binaries used to compile and run Java in windows and Linux and class files which are compile Java byte codes.
+
