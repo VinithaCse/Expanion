@@ -1,0 +1,87 @@
+Six Ways To Specify Java Class Path:
+
+1.  Use -classpath JVM option:
+    java -classpath C:\hello\build\classes com.javahowto.test.HelloWorld
+2.  Use -cp JVM option, a short form of -classpath:
+    java -cp C:\hello\build\classes com.javahowto.test.HelloWorld
+3.  Use -Djava.class.path system property:
+    java -Djava.class.path=C:\hello\build\classes com.javahowto.test.HelloWorld
+4.  Use CLASSPATH environment variable:
+    set CLASSPATH=C:\hello\build\classes;
+    java com.javahowto.test.HelloWorld
+5.  Use current directory as the default classpath:
+    cd C:\hello\build\classes;
+    java com.javahowto.test.HelloWorld
+6.  Package all classes into a self-containing jar file that has this in its META-INF/MANIFEST.MF.
+    Main-Class: com.javahowto.test.HelloWorld
+    java -jar hello-world.jar
+  
+Integrated Development Enviorment
+ An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. 
+ An IDE normally consists of a source code editor, build automation tools and a debugger. 
+ Most modern IDEs have intelligent code completion.
+ Some IDEs contain a compiler, interpreter, or both, such as NetBeans and Eclipse; others do not, such as SharpDevelop and Lazarus
+
+Java Packages And It's Importance:
+ A Java package is a technique for organizing Java classes into namespaces similar to the modules of Modula, providing modular programming in Java.
+ Java packages can be stored in compressed files called JAR files, allowing classes to be downloaded faster as groups rather than individually. 
+ Programmers also typically use packages to organize classes belonging to the same category or providing similar functionality. 
+ A package provides a unique namespace for the types it contains. Classes in the same package can access each other's package-private and protected members.
+
+Java.lang.object Class
+ The java.lang.Object class is the root of the class hierarchy. 
+ Every class has Object as a superclass. 
+ All objects, including arrays, implement the methods of this class.
+ 
+ Object()
+ This is the Single Constructor.
+ 
+ 1 protected Object clone()
+   This method creates and returns a copy of this object.
+ 2 boolean equals(Object obj)
+   This method indicates whether some other object is "equal to" this one.
+ 3 protected void finalize()
+   This method is called by the garbage collector on an object when garbage collection determines that there are no more references to the object.
+ 4 Class<?> getClass()
+   This method returns the runtime class of this Object.
+ 5 int hashCode()
+   This method returns a hash code value for the object.
+ 6 void notify()
+   This method wakes up a single thread that is waiting on this object's monitor.
+ 7 void notifyAll()
+   This method wakes up all threads that are waiting on this object's monitor.
+ 8 String toString()
+   This method returns a string representation of the object.
+ 9 void wait()
+   This method causes the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object.
+10 void wait(long timeout)
+   This method causes the current thread to wait until either another thread invokes the notify() method or the notifyAll() method for this object, or a specified amount of time has elapsed.
+11 void wait(long timeout, int nanos)
+   This method causes the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object, or some other thread interrupts the current thread, or a certain amount of real time has elapsed.
+
+Java Code Convention:
+ Variable :
+  Except for variables, all instance, class, and class constants are in mixed case with a lowercase first letter. 
+  Internal words start with capital letters. 
+  Variable names should not start with underscore _ or dollar sign $ characters, even though both are allowed.
+  Variable names should be short yet meaningful. 
+  The choice of a variable name should be mnemonic- that is, designed to indicate to the casual observer the intent of its use. 
+  One-character variable names should be avoided except for temporary "throwaway" variables. 
+  Common names for temporary variables are i, j, k, m, and n for integers; c, d, and e for characters.
+ Method :
+  Methods should be verbs, in mixed case with the first letter lowercase, with the first letter of each internal word capitalized.
+ Classes :
+  Class names should be nouns, in mixed case with the first letter of each internal word capitalized. 
+  Try to keep your class names simple and descriptive. 
+  Use whole words-avoid acronyms and abbreviations.
+ Packages :
+  The prefix of a unique package name is always written in all-lowercase ASCII letters and should be one of the top-level domain names, currently com, edu, gov, mil, net, org, or one of the English two-letter codes identifying countries as specified in ISO Standard 3166, 1981.
+  Subsequent components of the package name vary according to an organization's own internal naming conventions. 
+  Such conventions might specify that certain directory name components be division, department, project, machine, or login names.
+ Interfaces :
+  Interface names should be capitalized like class names.
+ Constants:
+  The names of variables declared class constants and of ANSI constants should be all uppercase with words separated by underscores ("_"). 
+  (ANSI constants should be avoided, for ease of debugging.)
+
+
