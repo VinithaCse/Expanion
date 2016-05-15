@@ -1,0 +1,21 @@
+1. Unit Testing:
+
+Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation. 
+Unit testing is often automated but it can also be done manually.
+
+2. Java Unit Testing Frameworks:
+   Arquillian
+   JTest
+   The Grinder
+   TestNG
+   JUnit
+   JWalk
+   Mockito
+   Powermock
+   
+3. List Of Build Automation Tools
+   Jenkins	
+   Leiningen	
+   make	
+   Maven 
+4. Interview Questions
